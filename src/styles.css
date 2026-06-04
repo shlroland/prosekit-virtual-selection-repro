@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f6f7f9;
+  color: #202124;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.layout {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+.editorFrame {
+  background: #fff;
+  padding: 20px;
+}
+
+.editorContent {
+  min-height: 220px;
+  outline: none;
+  line-height: 1.7;
+}
+
+.editorContent .ProseMirror {
+  min-height: 220px;
+  outline: none;
+}
+
+.pickerPanel {
+  display: grid;
+  gap: 10px;
+  width: 244px;
+  padding: 12px;
+}
+
+.pickerPanel .react-colorful {
+  width: 220px;
+}
+
+.debugPanel {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  overflow-wrap: anywhere;
+  font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  background: #fbfcfe;
+}
+
+.prosekit-virtual-selection {
+  background-color: rgba(220, 38, 38, 0.22);
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.22);
+}
+
+.ProseMirror.prosekit-virtual-selection-active::selection,
+.ProseMirror.prosekit-virtual-selection-active *::selection {
+  color: inherit;
+  background: transparent;
+}
