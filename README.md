@@ -2,6 +2,8 @@
 
 Minimal reproduction for a ProseKit virtual-selection issue that appears when interacting with an external drag-based UI, such as `react-colorful`, inside an MUI `Popover`.
 
+Repository: https://github.com/shlroland/prosekit-virtual-selection-repro
+
 ## Setup
 
 ```sh

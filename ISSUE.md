@@ -4,7 +4,7 @@
 
 ## Reproduction
 
-Minimal reproduction: TODO_REPO_URL
+Minimal reproduction: https://github.com/shlroland/prosekit-virtual-selection-repro
 
 Steps:
 
